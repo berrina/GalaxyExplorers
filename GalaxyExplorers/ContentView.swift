@@ -41,6 +41,16 @@ struct ContentView: View {
                                 .padding(.top, 20)
                                 
                         }
+                        NavigationLink(destination: StudyView()) {
+                            Text ("OR CLICK HERE TO STUDY")
+                                .font(.title)
+                                .fontWeight(.bold)
+                                .foregroundColor(.white)
+                                .padding(.top, 20)
+                                
+                        }
+                        
+                        
                     }
                     
                     TextField("Enter your name", text: $userName)

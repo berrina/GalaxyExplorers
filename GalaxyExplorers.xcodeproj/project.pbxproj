@@ -20,6 +20,7 @@
 		D79385F62A7C013000712ACA /* SaturnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385F52A7C013000712ACA /* SaturnView.swift */; };
 		D79385F82A7C014200712ACA /* UranusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385F72A7C014100712ACA /* UranusView.swift */; };
 		D79385FA2A7C015400712ACA /* NeptuneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385F92A7C015400712ACA /* NeptuneView.swift */; };
+		D79386002A7C382100712ACA /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385FF2A7C382100712ACA /* StudyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		D79385F52A7C013000712ACA /* SaturnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturnView.swift; sourceTree = "<group>"; };
 		D79385F72A7C014100712ACA /* UranusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UranusView.swift; sourceTree = "<group>"; };
 		D79385F92A7C015400712ACA /* NeptuneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptuneView.swift; sourceTree = "<group>"; };
+		D79385FF2A7C382100712ACA /* StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				D763C7342A7AF8040013EDFB /* GalaxyView.swift */,
 				D79385F12A7C00FD00712ACA /* MarsView.swift */,
 				D79385F32A7C012300712ACA /* JupiterView.swift */,
+				D79385FF2A7C382100712ACA /* StudyView.swift */,
 				D79385F52A7C013000712ACA /* SaturnView.swift */,
 				D79385F72A7C014100712ACA /* UranusView.swift */,
 				D79385F92A7C015400712ACA /* NeptuneView.swift */,
@@ -174,6 +177,7 @@
 				D763C7372A7AFFFD0013EDFB /* MercuryView.swift in Sources */,
 				D763C7272A7ADE2D0013EDFB /* GalaxyExplorersApp.swift in Sources */,
 				D79385FA2A7C015400712ACA /* NeptuneView.swift in Sources */,
+				D79386002A7C382100712ACA /* StudyView.swift in Sources */,
 				D79385F02A7C00E700712ACA /* EarthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,59 +9,64 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var userName = ""
+    @State private var showWelcomeMessage = false
+    
     var body: some View {
-        
-        NavigationStack {
-            
+        NavigationView {
             ZStack {
                 // Placed the image as the background
                 Image("Wallpaper")
                     .resizable()
                     .scaledToFill()
                     .edgesIgnoringSafeArea(.all)
-                    .opacity(1.0)
-                
                 
                 VStack {
                     Text("Galaxy Explorers")
                         .font(.largeTitle)
                         .fontWeight(.bold)
-                        .foregroundColor(.white)
-                    Spacer()
+                        .foregroundColor(.gray)
                     
-                    NavigationLink(destination: GalaxyView()) {
-                        Text ("VIEW OUR SOLAR SYSTEM")
-                            .fontWeight(.black)
-                            .foregroundColor(.white)
-                            .padding(90.0)
-                        
-                    }
                     Spacer()
-                                        
-                    //TextField("Enter your name", text: $userName)
-                           // .padding()
-                           // .foregroundColor(.black)
-                           // .background(Color.white)
-                           // .cornerRadius(8)
-                           // .padding()
-                           // .textFieldStyle(RoundedBorderTextFieldStyle())
-                           // .padding(.top, 20)
-                                        
-                        //Text(userName.isEmpty ? "Welcome" : userName)
-                                .fontWeight(.black)
+                    if showWelcomeMessage {
+                        Text("Welcome, \(userName)!")
+                            .fontWeight(.bold)
+                            .font(.title)
+                            .foregroundColor(.white)
+                            .padding(.top, 40)
+                        NavigationLink(destination: GalaxyView()) {
+                            Text ("Click to start your journey through our solar system")
+                                .font(.title)
                                 .fontWeight(.bold)
                                 .foregroundColor(.white)
                                 .padding(.top, 20)
+                                
+                        }
+                    }
                     
-                } // v-stack bracket
-            }// z-stack bracket
-            
-        }// navigation stack bracket
-              
-
-
-                
-        
+                    TextField("Enter your name", text: $userName)
+                        .padding()
+                        .foregroundColor(.black)
+                        .background(Color(red: 0.468, green: 0.518, blue: 0.696))
+                        .cornerRadius(8)
+                        .padding()
+                    
+                    Button(action: {
+                        showWelcomeMessage = true
+                    }) {
+                        Text("Submit")
+                            .fontWeight(.bold)
+                            .foregroundColor(.black)
+                            .padding(20)
+                            .background(Color.gray)
+                            .cornerRadius(8)
+                    }
+                    
+                    Spacer()
+                    
+                   
+                } // VStack bracket
+            } // ZStack bracket
+        } // NavigationView bracket
     }
 }
 
@@ -70,3 +75,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

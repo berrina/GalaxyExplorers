@@ -43,8 +43,8 @@ struct VenusView: View {
                         
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
-                                .foregroundColor(.orange)
-                                .opacity(0.8)
+                                .foregroundColor(.white)
+                                .opacity(0.6)
                                 
                             
                             VStack(alignment: .leading) {
@@ -81,8 +81,8 @@ struct VenusView: View {
                         
                         ZStack {
                             RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(.orange)
-                                .opacity(0.8)
+                                .foregroundColor(.white)
+                                .opacity(0.6)
                             
                             VStack(alignment: .leading) {
                                 Text ("Venus is often called the Evening Star!")

@@ -45,7 +45,7 @@ struct MarsView: View {
                                 .opacity(0.8)
                             
                             VStack(alignment: .leading) {
-                                Text("It’s a cold desert, Bright red due to iron oxide dust.")
+                                Text("Has a bright red due to iron oxide dust.")
                                     .padding(.vertical, 8)
                                 
                                 Text("Named after the Roman god of war.")
@@ -56,7 +56,7 @@ struct MarsView: View {
                             }
                             .padding()
                         }
-                        .padding(.horizontal, 10.0)
+                        .padding(.horizontal, 20)
                         .padding(.bottom, 10.0)
                         
                         Text("Fun Facts:")
@@ -70,21 +70,21 @@ struct MarsView: View {
                                 .opacity(0.8)
                             
                             VStack(alignment: .leading) {
-                                Text("Beneath Mars' surface are sheets of frozen ice, and at both poles are ice caps.")
+                                Text("Mars' surface has sheets of frozen ice.")
                                     .padding(.vertical, 5)
                                 
-                                Text("Mars a long time ago was a much warmer, wetter world, rivers and maybe even oceans existed.")
+                                Text("Mars a long time ago was a much wetter ")
                                     .padding(.vertical, 5)
                                 
                                 Text("Has intense dust storms fueled by solar winds.")
                                     .padding(.vertical, 5)
                                 
-                                Text("Mars shares the greatest similarities with Earth.")
+                                Text("Most common to Earth.")
                                     .padding(.vertical, 5)
                             }
                             .padding()
                         }
-                        .padding(.horizontal, 10.0)
+                        .padding(.horizontal, 20)
                         .padding(.bottom, 10.0)
                         
                         Spacer()

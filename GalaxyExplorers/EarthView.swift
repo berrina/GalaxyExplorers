@@ -47,21 +47,21 @@ struct EarthView: View {
                                 .opacity(0.6)
                                 
                             VStack(alignment: .leading) {
-                                Text("Our home planet & the only planet known to harbor life.")
-                                    .multilineTextAlignment(.leading)
-                                    .padding(.vertical, 8)
+                                Text("The only planet known to harbor life.")
+                                    .multilineTextAlignment(.center)
+                                    .padding(.vertical, 5)
                                 
                                 Text("A water world with two-thirds of the planet covered by water.")
-                                    .multilineTextAlignment(.leading)
+                                    .multilineTextAlignment(.center)
                                     .padding(.vertical, 5)
                                 
                                 Text("Name originates from \"Die Erde,\" the German word for \"the ground.\"")
-                                    .padding(.vertical, 20)
+                                    .padding(.vertical, 5)
                             }
                             .padding()
                         }
                         .padding(.horizontal, 20)
-                        .padding(.bottom, 20)
+                        .padding(.bottom, 10)
                         
                         Text("Cool Facts:")
                             .font(.title)
@@ -90,7 +90,7 @@ struct EarthView: View {
                             .padding()
                         }
                         .padding(.horizontal, 20)
-                        .padding(.bottom, 20)
+                        .padding(.bottom, 10)
                         
                         Spacer()
                     }

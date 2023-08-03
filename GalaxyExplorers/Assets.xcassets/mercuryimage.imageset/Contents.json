@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "sticker-template-with-jupiter-planet-isolated_1308-76946-removebg-preview (1).png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -20,8 +20,6 @@
 		D79385F62A7C013000712ACA /* SaturnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385F52A7C013000712ACA /* SaturnView.swift */; };
 		D79385F82A7C014200712ACA /* UranusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385F72A7C014100712ACA /* UranusView.swift */; };
 		D79385FA2A7C015400712ACA /* NeptuneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385F92A7C015400712ACA /* NeptuneView.swift */; };
-		D79385FC2A7C13E800712ACA /* GeneralFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385FB2A7C13E800712ACA /* GeneralFactsView.swift */; };
-		D79385FE2A7C140900712ACA /* MastereyQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385FD2A7C140900712ACA /* MastereyQuizView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +37,6 @@
 		D79385F52A7C013000712ACA /* SaturnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturnView.swift; sourceTree = "<group>"; };
 		D79385F72A7C014100712ACA /* UranusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UranusView.swift; sourceTree = "<group>"; };
 		D79385F92A7C015400712ACA /* NeptuneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptuneView.swift; sourceTree = "<group>"; };
-		D79385FB2A7C13E800712ACA /* GeneralFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralFactsView.swift; sourceTree = "<group>"; };
-		D79385FD2A7C140900712ACA /* MastereyQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastereyQuizView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +80,6 @@
 				D79385EF2A7C00E700712ACA /* EarthView.swift */,
 				D79385ED2A7BFE8C00712ACA /* VenusView.swift */,
 				D763C7362A7AFFFD0013EDFB /* MercuryView.swift */,
-				D79385FD2A7C140900712ACA /* MastereyQuizView.swift */,
-				D79385FB2A7C13E800712ACA /* GeneralFactsView.swift */,
 				D763C72A2A7ADE2F0013EDFB /* Assets.xcassets */,
 				D763C72C2A7ADE2F0013EDFB /* Preview Content */,
 			);
@@ -177,10 +171,8 @@
 				D79385F62A7C013000712ACA /* SaturnView.swift in Sources */,
 				D79385F22A7C00FD00712ACA /* MarsView.swift in Sources */,
 				D79385F82A7C014200712ACA /* UranusView.swift in Sources */,
-				D79385FC2A7C13E800712ACA /* GeneralFactsView.swift in Sources */,
 				D763C7372A7AFFFD0013EDFB /* MercuryView.swift in Sources */,
 				D763C7272A7ADE2D0013EDFB /* GalaxyExplorersApp.swift in Sources */,
-				D79385FE2A7C140900712ACA /* MastereyQuizView.swift in Sources */,
 				D79385FA2A7C015400712ACA /* NeptuneView.swift in Sources */,
 				D79385F02A7C00E700712ACA /* EarthView.swift in Sources */,
 			);

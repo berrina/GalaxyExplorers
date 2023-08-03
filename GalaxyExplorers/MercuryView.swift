@@ -18,7 +18,7 @@ struct MercuryView: View {
                     .opacity(1.0)
                 
                 VStack {
-                    Text("WANT TO CONQUER MERCURY?")
+                    Text("WANT TO EXPLORE MERCURY?")
                         .font(.largeTitle)
                         .fontWeight(.heavy)
                         .foregroundColor(Color.black)
@@ -32,32 +32,7 @@ struct MercuryView: View {
                     
                     Spacer()
                     
-                    NavigationLink(destination: GeneralFactsView()) {
-                        Text("General Facts")
-                            .font(.title)
-                            .fontWeight(.bold)
-                            .foregroundColor(.white)
-                            .frame(maxWidth: .infinity)
-                            .padding()
-                            .background(Color.orange)
-                            .cornerRadius(10)
-                            .padding(.horizontal, 50)
-                            .padding(.bottom, 10)
-                        Spacer ()
-                    }
                     
-                    NavigationLink(destination: MastereyQuizView()) {
-                        Text("Mastery Quiz")
-                            .font(.title)
-                            .fontWeight(.bold)
-                            .foregroundColor(.white)
-                            .frame(maxWidth: .infinity)
-                            .padding()
-                            .background(Color.red)
-                            .cornerRadius(10)
-                            .padding(.horizontal, 50)
-                        Spacer ()
-                    }
                 }
             }
         }

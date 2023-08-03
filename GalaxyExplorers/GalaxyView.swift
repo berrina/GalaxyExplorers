@@ -22,7 +22,7 @@ struct GalaxyView: View {
                         .font(.largeTitle)
                         .fontWeight(.heavy)
                         .foregroundColor(Color.white)
-                        .padding(.top, 50) // Adjust top padding for the title
+                        .padding(.top, 30) // Adjust top padding for the title
                     
                     VStack(spacing: 20) {
                         NavigationLink(destination: MercuryView()) {
@@ -30,7 +30,7 @@ struct GalaxyView: View {
                                 .font(.caption)
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
-                                .padding(15) // Adjust padding for the link
+                                .padding(30) // Adjust padding for the link
                         }
                         
                         NavigationLink(destination: VenusView()) {
@@ -38,7 +38,7 @@ struct GalaxyView: View {
                                 .font(.caption)
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
-                                .padding(15) // Adjust padding for the link
+                                .padding(20) // Adjust padding for the link
                         }
                         
                         NavigationLink(destination: EarthView()) {
@@ -46,7 +46,7 @@ struct GalaxyView: View {
                                 .font(.caption)
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
-                                .padding(15) // Adjust padding for the link
+                                .padding(20) // Adjust padding for the link
                         }
                         
                         NavigationLink(destination: MarsView()) {
@@ -54,7 +54,7 @@ struct GalaxyView: View {
                                 .font(.caption)
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
-                                .padding(15) // Adjust padding for the link
+                                .padding(20) // Adjust padding for the link
                         }
                         
                         NavigationLink(destination: JupiterView()) {
@@ -62,7 +62,7 @@ struct GalaxyView: View {
                                 .font(.caption)
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
-                                .padding(15) // Adjust padding for the link
+                                .padding(20) // Adjust padding for the link
                         }
                         
                         NavigationLink(destination: SaturnView()) {
@@ -70,7 +70,7 @@ struct GalaxyView: View {
                                 .font(.caption)
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
-                                .padding(15) // Adjust padding for the link
+                                .padding(20) // Adjust padding for the link
                         }
                         
                         NavigationLink(destination: UranusView()) {
@@ -78,7 +78,7 @@ struct GalaxyView: View {
                                 .font(.caption)
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color.white)
-                                .padding(15) // Adjust padding for the link
+                                .padding(20) // Adjust padding for the link
                         }
                         
                         NavigationLink(destination: NeptuneView()) {

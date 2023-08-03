@@ -13,6 +13,13 @@
 		D763C72E2A7ADE2F0013EDFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D763C72D2A7ADE2F0013EDFB /* Preview Assets.xcassets */; };
 		D763C7352A7AF8040013EDFB /* GalaxyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D763C7342A7AF8040013EDFB /* GalaxyView.swift */; };
 		D763C7372A7AFFFD0013EDFB /* MercuryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D763C7362A7AFFFD0013EDFB /* MercuryView.swift */; };
+		D79385EE2A7BFE8C00712ACA /* VenusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385ED2A7BFE8C00712ACA /* VenusView.swift */; };
+		D79385F02A7C00E700712ACA /* EarthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385EF2A7C00E700712ACA /* EarthView.swift */; };
+		D79385F22A7C00FD00712ACA /* MarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385F12A7C00FD00712ACA /* MarsView.swift */; };
+		D79385F42A7C012300712ACA /* JupiterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385F32A7C012300712ACA /* JupiterView.swift */; };
+		D79385F62A7C013000712ACA /* SaturnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385F52A7C013000712ACA /* SaturnView.swift */; };
+		D79385F82A7C014200712ACA /* UranusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385F72A7C014100712ACA /* UranusView.swift */; };
+		D79385FA2A7C015400712ACA /* NeptuneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79385F92A7C015400712ACA /* NeptuneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +30,13 @@
 		D763C72D2A7ADE2F0013EDFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D763C7342A7AF8040013EDFB /* GalaxyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyView.swift; sourceTree = "<group>"; };
 		D763C7362A7AFFFD0013EDFB /* MercuryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercuryView.swift; sourceTree = "<group>"; };
+		D79385ED2A7BFE8C00712ACA /* VenusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenusView.swift; sourceTree = "<group>"; };
+		D79385EF2A7C00E700712ACA /* EarthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthView.swift; sourceTree = "<group>"; };
+		D79385F12A7C00FD00712ACA /* MarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsView.swift; sourceTree = "<group>"; };
+		D79385F32A7C012300712ACA /* JupiterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JupiterView.swift; sourceTree = "<group>"; };
+		D79385F52A7C013000712ACA /* SaturnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturnView.swift; sourceTree = "<group>"; };
+		D79385F72A7C014100712ACA /* UranusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UranusView.swift; sourceTree = "<group>"; };
+		D79385F92A7C015400712ACA /* NeptuneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptuneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 				D763C7262A7ADE2D0013EDFB /* GalaxyExplorersApp.swift */,
 				D763C7282A7ADE2D0013EDFB /* ContentView.swift */,
 				D763C7342A7AF8040013EDFB /* GalaxyView.swift */,
+				D79385F12A7C00FD00712ACA /* MarsView.swift */,
+				D79385F32A7C012300712ACA /* JupiterView.swift */,
+				D79385F52A7C013000712ACA /* SaturnView.swift */,
+				D79385F72A7C014100712ACA /* UranusView.swift */,
+				D79385F92A7C015400712ACA /* NeptuneView.swift */,
+				D79385EF2A7C00E700712ACA /* EarthView.swift */,
+				D79385ED2A7BFE8C00712ACA /* VenusView.swift */,
 				D763C7362A7AFFFD0013EDFB /* MercuryView.swift */,
 				D763C72A2A7ADE2F0013EDFB /* Assets.xcassets */,
 				D763C72C2A7ADE2F0013EDFB /* Preview Content */,
@@ -143,10 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79385EE2A7BFE8C00712ACA /* VenusView.swift in Sources */,
 				D763C7352A7AF8040013EDFB /* GalaxyView.swift in Sources */,
+				D79385F42A7C012300712ACA /* JupiterView.swift in Sources */,
 				D763C7292A7ADE2D0013EDFB /* ContentView.swift in Sources */,
+				D79385F62A7C013000712ACA /* SaturnView.swift in Sources */,
+				D79385F22A7C00FD00712ACA /* MarsView.swift in Sources */,
+				D79385F82A7C014200712ACA /* UranusView.swift in Sources */,
 				D763C7372A7AFFFD0013EDFB /* MercuryView.swift in Sources */,
 				D763C7272A7ADE2D0013EDFB /* GalaxyExplorersApp.swift in Sources */,
+				D79385FA2A7C015400712ACA /* NeptuneView.swift in Sources */,
+				D79385F02A7C00E700712ACA /* EarthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

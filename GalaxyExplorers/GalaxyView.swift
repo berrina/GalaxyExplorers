@@ -9,46 +9,89 @@ import SwiftUI
 
 struct GalaxyView: View {
     var body: some View {
-        
-        NavigationStack {
-            
+        NavigationView {
             ZStack {
-                
-                Image ("Wallpaper2")
+                Image("Wallpaper2")
                     .resizable()
                     .scaledToFill()
                     .edgesIgnoringSafeArea(.all)
                     .opacity(1.0)
                 
                 VStack {
-                    Text ("OUR SOLAR SYSTEM")
+                    Text("OUR SOLAR SYSTEM")
                         .font(.largeTitle)
                         .fontWeight(.heavy)
                         .foregroundColor(Color.white)
-                    Spacer ()
+                        .padding(.top, 50) // Adjust top padding for the title
                     
-                    NavigationLink(destination: MercuryView()) {
-                        Text ("Mercury")
-                            .font(.caption)
-                            .fontWeight(.semibold)
-                            .foregroundColor(Color.white)
-                           
+                    VStack(spacing: 20) {
+                        NavigationLink(destination: MercuryView()) {
+                            Text("Mercury")
+                                .font(.caption)
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color.white)
+                                .padding(15) // Adjust padding for the link
+                        }
+                        
+                        NavigationLink(destination: VenusView()) {
+                            Text("Venus")
+                                .font(.caption)
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color.white)
+                                .padding(15) // Adjust padding for the link
+                        }
+                        
+                        NavigationLink(destination: EarthView()) {
+                            Text("Earth")
+                                .font(.caption)
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color.white)
+                                .padding(15) // Adjust padding for the link
+                        }
+                        
+                        NavigationLink(destination: MarsView()) {
+                            Text("Mars")
+                                .font(.caption)
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color.white)
+                                .padding(15) // Adjust padding for the link
+                        }
+                        
+                        NavigationLink(destination: JupiterView()) {
+                            Text("Jupiter")
+                                .font(.caption)
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color.white)
+                                .padding(15) // Adjust padding for the link
+                        }
+                        
+                        NavigationLink(destination: SaturnView()) {
+                            Text("Saturn")
+                                .font(.caption)
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color.white)
+                                .padding(15) // Adjust padding for the link
+                        }
+                        
+                        NavigationLink(destination: UranusView()) {
+                            Text("Uranus")
+                                .font(.caption)
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color.white)
+                                .padding(15) // Adjust padding for the link
+                        }
+                        
+                        NavigationLink(destination: NeptuneView()) {
+                            Text("Neptune")
+                                .font(.caption)
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color.white)
+                                .padding(15) // Adjust padding for the link
+                        }
                     }
-                    Spacer ()
-                        .padding(7.0)
-                    
-                    
-                    
-                }// vstack bracket
-
-            }// zstack bracket
-            
-        }// navstack bracket
-        
-        
-        
-        
-        
+                }
+            }
+        }
     }
 }
 
@@ -57,3 +100,5 @@ struct GalaxyView_Previews: PreviewProvider {
         GalaxyView()
     }
 }
+
+

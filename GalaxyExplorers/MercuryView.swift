@@ -6,7 +6,6 @@
 //
 import SwiftUI
 
-
 struct MercuryView: View {
     var body: some View {
         NavigationView {
@@ -33,11 +32,70 @@ struct MercuryView: View {
                     Spacer()
                     
                     
+                    VStack {
+                        Text("General Facts:")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                            .padding(.top, 20)
+                        
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 10)
+                                .foregroundColor(.white)
+                                .opacity(0.8)
+                            
+                            VStack(alignment: .leading) {
+                                Text("Mercury is the closest planet to the Sun.")
+                                    .padding(.vertical, 5)
+                                
+                                Text("It takes 88 days for Mercury to orbit around the Sun.")
+                                    .padding(.vertical, 5)
+                                
+                                Text("Mercury is super hot during the day,but super cold at night.")
+                                    .padding(.vertical, 5)
+                                
+                                Text("Mercury is a rocky planet, just like Earth!")
+                                    .padding(.vertical, 5)
+                                
+                               
+                            }
+                            .padding()
+                        }
+                        .padding(.horizontal, 20)
+                        .padding(.bottom, 20)
+                        
+                        Text("Fun Facts:")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                        
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 10)
+                                .foregroundColor(.white)
+                                .opacity(0.8)
+                            
+                            VStack(alignment: .leading) {
+                                Text("One day on Mercury is equal to 59 Earth days!")
+                                    .padding(.vertical, 5)
+                                
+                                Text("Mercury doesn’t have enough air to breathe.")
+                                    .padding(.vertical, 5)
+                            }
+                            .padding()
+                        }
+                        .padding(.horizontal, 20)
+                        .padding(.bottom, 20)
+                        
+                        Spacer()
+                    }
+                    .padding(.top, 50)
+                    .foregroundColor(.black)
                 }
             }
         }
     }
 }
+
 
 struct MercuryView_Previews: PreviewProvider {
     static var previews: some View {

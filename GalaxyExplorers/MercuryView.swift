@@ -21,12 +21,12 @@ struct MercuryView: View {
                         .font(.largeTitle)
                         .fontWeight(.heavy)
                         .foregroundColor(Color.black)
-                        .padding(.top, 30)
+                        .padding(.top, 40)
                 
                     Image("mercuryimage")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 150, height: 150)
+                        .frame(width: 10, height: 10)
                         .padding(.top, 10)
                     
                     Spacer()

@@ -18,7 +18,7 @@ struct JupiterView: View {
                     .opacity(1.0)
                 
                 VStack {
-                    Text("LET'S EXPLORE JUPITER!")
+                    Text("LETS EXPLORE JUPITER!")
                         .font(.title)
                         .fontWeight(.heavy)
                         .foregroundColor(Color.white)
@@ -27,7 +27,7 @@ struct JupiterView: View {
                     Image("jupiterimage")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 150, height: 150)
+                        .frame(width: 10, height: 10)
                         .padding(.top, 5.0)
                     
                     Spacer()
@@ -42,13 +42,13 @@ struct JupiterView: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
                                 .foregroundColor(.white)
-                                .opacity(0.8)
+                                .opacity(0.6)
                             
                             VStack(alignment: .leading) {
-                                Text("   The largest planet in the solar system")
+                                Text("The largest planet in the solar system")
                                     .padding(.vertical, 8)
                                 
-                                Text("   A gas giant composed of hydrogen and helium ")
+                                Text("A gas giant composed of hydrogen and helium ")
                                     .padding(.vertical, 5)
                                 
                                 Text("Name originates from the king of the ancient Roman gods.")
@@ -70,7 +70,7 @@ struct JupiterView: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 10)
                                 .foregroundColor(.white)
-                                .opacity(0.8)
+                                .opacity(0.6)
                             
                             VStack(alignment: .leading) {
                                 Text("  It has 80 moons.")
@@ -80,7 +80,7 @@ struct JupiterView: View {
                                 Text("Jupiter's orbit is about 12 Earth years.")
                                     .padding(.vertical, 5)
                                 
-                                Text("  Jupiter has the Great Red Spot, a big storm")
+                                Text("Jupiter has the Great Red Spot, a big storm")
                                     .padding(.vertical, 5)
                                 
                                 Text("Jupiter has rings that are too faint to see easily.")
@@ -89,7 +89,7 @@ struct JupiterView: View {
                             .padding()
                         }
                         .padding(.horizontal, 20)
-                        .padding(.bottom, 10.0)
+                        .padding(.bottom, 10)
                     }
                     .padding(.bottom, 10.0)
                     

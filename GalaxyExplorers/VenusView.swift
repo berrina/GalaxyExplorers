@@ -27,8 +27,8 @@ struct VenusView: View {
                     Image("venusimage")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 150, height: 150)
-                        .padding(.top, 10)
+                        .frame(width: 50, height: 10)
+                        .padding(.top, 6.0)
                     
                     Spacer()
                     
@@ -38,21 +38,21 @@ struct VenusView: View {
                             .font(.title)
                             .fontWeight(.bold)
                             .foregroundColor(.white)
-                            .padding(.top, 20)
+                            .padding(.top, 10)
                         Spacer ()
                         
                         ZStack {
-                            RoundedRectangle(cornerRadius: 20)
+                            RoundedRectangle(cornerRadius: 10)
                                 .foregroundColor(.white)
                                 .opacity(0.6)
                                 
                             
-                            VStack(alignment: .leading) {
+                            VStack(alignment: .center) {
                                 
                                 
                                 Text("Venus is similar in size to Earth.")
                                     .fontWeight(.bold)
-                                    .multilineTextAlignment(.leading)
+                                    .multilineTextAlignment(.center)
                                     .padding(.vertical, 5)
                                     
                                 
@@ -71,7 +71,7 @@ struct VenusView: View {
                             .padding()
                         }
                         .padding(.horizontal, 20)
-                        .padding(.bottom, 20)
+                        .padding(.bottom, 10)
                         
                         Text("Fun Facts:")
                             .font(.title)
@@ -84,7 +84,7 @@ struct VenusView: View {
                                 .foregroundColor(.white)
                                 .opacity(0.6)
                             
-                            VStack(alignment: .leading) {
+                            VStack(alignment: .center) {
                                 Text ("Venus is often called the Evening Star!")
                                     .padding(.vertical, 5)
                                     .fontWeight(.bold)
@@ -96,7 +96,7 @@ struct VenusView: View {
                             .padding()
                         }
                         .padding(.horizontal, 20)
-                        .padding(.bottom, 20)
+                        .padding(.bottom, 10)
                         
                         Spacer()
                     }

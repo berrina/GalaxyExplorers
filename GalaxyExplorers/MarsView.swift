@@ -27,7 +27,7 @@ struct MarsView: View {
                     Image("marsimage")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 150, height: 150)
+                        .frame(width: 10, height: 10)
                         .padding(.top, 5.0)
                     
                     Spacer()
@@ -42,22 +42,22 @@ struct MarsView: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
                                 .foregroundColor(.white)
-                                .opacity(0.8)
+                                .opacity(0.6)
                             
                             VStack(alignment: .leading) {
                                 Text("Has a bright red due to iron oxide dust.")
-                                    .padding(.vertical, 8)
+                                    .padding(.vertical, 5)
                                 
                                 Text("Named after the Roman god of war.")
                                     .padding(.vertical, 5)
                                 
                                 Text("Mars has two moons, Phobos and Deimos.")
-                                    .padding(.vertical, 20)
+                                    .padding(.vertical, 5)
                             }
                             .padding()
                         }
                         .padding(.horizontal, 20)
-                        .padding(.bottom, 10.0)
+                        .padding(.bottom, 10)
                         
                         Text("Fun Facts:")
                             .font(.title)
@@ -67,7 +67,7 @@ struct MarsView: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 10)
                                 .foregroundColor(.white)
-                                .opacity(0.8)
+                                .opacity(0.6)
                             
                             VStack(alignment: .leading) {
                                 Text("Mars' surface has sheets of frozen ice.")
@@ -85,7 +85,7 @@ struct MarsView: View {
                             .padding()
                         }
                         .padding(.horizontal, 20)
-                        .padding(.bottom, 10.0)
+                        .padding(.bottom, 10)
                         
                         Spacer()
                     }

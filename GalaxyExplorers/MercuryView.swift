@@ -38,21 +38,25 @@ struct MercuryView: View {
                             .fontWeight(.bold)
                             .foregroundColor(.white)
                             .padding(.top, 20)
+                        Spacer ()
                         
                         ZStack {
-                            RoundedRectangle(cornerRadius: 10)
+                            RoundedRectangle(cornerRadius: 20)
                                 .foregroundColor(.white)
-                                .opacity(0.8)
+                                .opacity(2.8)
+                                
                             
                             VStack(alignment: .leading) {
                                 Text("Mercury is the closest planet to the Sun.")
-                                    .padding(.vertical, 5)
+                                    .multilineTextAlignment(.leading)
+                                    .padding(.vertical, 8)
                                 
                                 Text("It takes 88 days for Mercury to orbit around the Sun.")
+                                    .multilineTextAlignment(.leading)
                                     .padding(.vertical, 5)
                                 
                                 Text("Mercury is super hot during the day,but super cold at night.")
-                                    .padding(.vertical, 5)
+                                    .padding(.vertical, 20)
                                 
                                 Text("Mercury is a rocky planet, just like Earth!")
                                     .padding(.vertical, 5)
